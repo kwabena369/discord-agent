@@ -1,15 +1,15 @@
-# 🤖 Discord AI Agent
+# Discord AI Agent
 
 A personal AI agent running on Discord, powered by Groq (LLaMA 3.3 70B) with 5 real tools.
 
 ## Tools
 | Tool | API | Cost |
 |---|---|---|
-| 🌤 Weather | OpenWeatherMap | Free (1000 req/day) |
-| 💱 Currency | Frankfurter | Free forever, no key |
-| 📰 News | NewsAPI | Free (100 req/day) |
-| 🔍 Web Search | Tavily | Free (1000 req/month) |
-| 🎌 Anime | Jikan (MAL) | Free forever, no key |
+|  Weather | OpenWeatherMap | Free (1000 req/day) |
+|  Currency | Frankfurter | Free forever, no key |
+|  News | NewsAPI | Free (100 req/day) |
+|  Web Search | Tavily | Free (1000 req/month) |
+|  Anime | Jikan (MAL) | Free forever, no key |
 
 ---
 
@@ -45,7 +45,7 @@ Then fill in your API keys (see below for where to get each one).
 2. Click **New Application** → give it a name
 3. Go to **Bot** tab → click **Add Bot**
 4. Under **Privileged Gateway Intents**, enable:
-   - ✅ Message Content Intent
+   - Message Content Intent
 5. Copy the token → paste into `.env` as `DISCORD_TOKEN`
 6. Go to **OAuth2 → URL Generator**:
    - Scopes: `bot`
