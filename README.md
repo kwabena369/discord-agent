@@ -17,7 +17,7 @@ A personal AI agent running on Discord, powered by Groq (LLaMA 3.3 70B) with 5 r
 
 ### 1. Clone and install
 ```bash
-git clone <your-repo>
+git clone https://github.com/kwabena369/discord-agent
 cd discord-agent
 npm install
 ```
